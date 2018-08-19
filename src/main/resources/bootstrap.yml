@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: myApp
+  cloud:
+    consul:
+      discovery:
+        instanceId: ${spring.application.name}
+        health-check-path: /bookmarks/mfisher
+    config:
+      enabled: true
