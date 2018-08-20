@@ -15,10 +15,10 @@ import com.itom.nextGenDemo.bookmarks.BookmarkRepository;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class NextGenDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(NextGenDemoApplication.class, args);
 	}
 
 	@Bean
